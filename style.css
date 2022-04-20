@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin: 50px auto;
+    background-color: white;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+body{
+    background-color: grey;
+}
+
+th,td{
+    width: 20%;
+    border-right: 10px solid grey;
+}
+
+thead > tr > th{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+thead > tr > th:first-child{
+    color: #60CB71;
+    border-top: 3px solid #60CB71;
+}
+
+thead > tr > th:nth-child(2){
+    color: #5F5DAC;
+    border-top: 3px solid #5F5DAC;
+}
+
+thead > tr > th:last-child{
+    color: #1F81D3;
+    border-top: 3px solid #1F81D3;
+}
+
+tbody > tr:first-child {
+    font-weight: bold;
+}
+
+tbody > tr:first-child > td {
+    padding: 6px;
+    font-size: 20px;
+    color: white;
+}
+
+tbody > tr:first-child > td:first-child {
+    background-color: #60CB71;
+}
+
+tbody > tr:first-child > td:nth-child(2){
+    background-color: #5F5DAC;
+}
+
+tbody > tr:first-child > td:last-child{
+    background-color: #1F81D3;
+}
+
+tbody > tr:nth-child(2n - 1) {
+    background-color: #DDDDDD;
+}
+
+tbody > tr > td {
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+tbody > tr:last-child > td {
+    padding: 20px;
+}
+
+tbody > tr:last-child > td:first-child {
+    border-bottom: 3px solid #60CB71;
+}
+
+tbody > tr:last-child > td:nth-child(2){
+    border-bottom: 3px solid #5F5DAC;
+}
+
+tbody > tr:last-child > td:last-child{
+    border-bottom: 3px solid #1F81D3;
+}
+
+tbody > tr:last-child > td > button {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+tbody > tr:last-child > td > button:hover {
+    transition: all 1s;
+}
+
+tbody > tr:last-child > td:first-child > button {
+    border: 2px solid #60CB71;
+    color: #60CB71;
+}
+
+tbody > tr:last-child > td:first-child > button:hover {
+    background-color: #60CB71;
+    color: white;
+}
+
+tbody > tr:last-child > td:nth-child(2) > button {
+    border: 2px solid #5F5DAC;
+    color: #5F5DAC;
+}
+
+tbody > tr:last-child > td:nth-child(2) > button:hover{
+    background-color: #5F5DAC;
+    color: white;
+}
+
+tbody > tr:last-child > td:last-child > button {
+    border: 2px solid #1F81D3;
+    color: #1F81D3;
+}
+
+tbody > tr:last-child > td:last-child > button:hover {
+    background-color: #1F81D3;
+    color: white;
+}
